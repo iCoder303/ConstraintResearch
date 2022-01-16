@@ -17,31 +17,31 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pMJ-a7-vet">
-                                <rect key="frame" x="242.66666666666663" y="74" width="155.33333333333337" height="788"/>
+                                <rect key="frame" x="20" y="479" width="388" height="393"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aLA-gJ-F91">
-                                <rect key="frame" x="30" y="74" width="167.66666666666666" height="788"/>
+                                <rect key="frame" x="20" y="64" width="388" height="395"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="aLA-gJ-F91" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="CPf-nq-nIK"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pMJ-a7-vet" secondAttribute="trailing" constant="30" id="MR1-JR-SEU"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pMJ-a7-vet" secondAttribute="bottom" constant="30" id="Nrm-8K-tLt"/>
-                            <constraint firstItem="aLA-gJ-F91" firstAttribute="width" secondItem="pMJ-a7-vet" secondAttribute="width" multiplier="1.08046" id="Sl5-6O-O89"/>
-                            <constraint firstItem="pMJ-a7-vet" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="a1j-Yf-5B0"/>
-                            <constraint firstItem="pMJ-a7-vet" firstAttribute="leading" secondItem="aLA-gJ-F91" secondAttribute="trailing" constant="45" id="bdp-ce-i2H"/>
-                            <constraint firstItem="aLA-gJ-F91" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="cMs-aa-cvE"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aLA-gJ-F91" secondAttribute="bottom" constant="30" id="l4I-Ny-4wd"/>
+                            <constraint firstItem="aLA-gJ-F91" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="EhJ-ST-3DK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aLA-gJ-F91" secondAttribute="trailing" constant="20" id="HQX-cn-OUe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pMJ-a7-vet" secondAttribute="trailing" constant="20" id="K0l-87-b8z"/>
+                            <constraint firstItem="pMJ-a7-vet" firstAttribute="top" secondItem="aLA-gJ-F91" secondAttribute="bottom" constant="20" id="NDU-Nj-tZs"/>
+                            <constraint firstItem="aLA-gJ-F91" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="WfX-4s-MTd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pMJ-a7-vet" secondAttribute="bottom" constant="20" id="c3g-q0-agG"/>
+                            <constraint firstItem="pMJ-a7-vet" firstAttribute="height" secondItem="aLA-gJ-F91" secondAttribute="height" multiplier="0.995434" id="diL-qw-Jcy"/>
+                            <constraint firstItem="pMJ-a7-vet" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="r0Q-Kt-Jht"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="88.125" y="81.25"/>
+            <point key="canvasLocation" x="87.676056338028175" y="80.625"/>
         </scene>
     </scenes>
     <resources>
